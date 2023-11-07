@@ -90,5 +90,5 @@ async function runCheckForDatabase(db: Database) {
         page.saveChanges();
     }
 
-    logger.info(`<<< ✅ Checked ${pages.length} without errors.`);
+    logger.info(`<<< ✅ Checked ${pages.length} pages without errors.`);
 }
