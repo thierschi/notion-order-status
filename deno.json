@@ -1,5 +1,11 @@
 {
     "tasks": {
         "dev": "deno run -A --watch src/main.ts"
+    },
+    "lint": {
+        "include": ["src/"],
+        "rules": {
+            "exclude": ["no-explicit-any"]
+        }
     }
 }
