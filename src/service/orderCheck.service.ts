@@ -1,3 +1,4 @@
+import moment from 'https://deno.land/x/momentjs@2.29.1-deno/mod.ts';
 import { fetchOrderStatus } from '../data/dm/dm.api.ts';
 import Database from '../data/notion/database/database.api.ts';
 import { getDatabases } from '../data/notion/search/search.api.ts';
@@ -36,7 +37,7 @@ async function runCheckForDatabase(db: Database) {
     for (const page of pages) {
         page.clearAll();
 
-        page.lastRefresh = new Date().toISOString();
+        page.lastRefresh = moment().toISOString(true);
 
         const storeId = page.storeId;
         const orderId = page.orderId;
