@@ -1,0 +1,9 @@
+version: '2'
+services:
+    notion-order-status:
+        image: notion-order-status:latest
+        restart: unless-stopped
+        environment:
+            - NOTION_API_SECRET=<SECRET>
+        volumes:
+            - ./docker/logs:/app/logs

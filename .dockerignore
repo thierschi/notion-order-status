@@ -1,0 +1,6 @@
+.vscode/
+logs/
+docker/
+LICENSE
+README.md
+.env.template
