@@ -2,6 +2,11 @@
 
 Notion Integration which fetches status from DM's API and updates notion databases
 
+# Deploy
+
+-   `docker build -t notion-order-status .` run to build
+-   `docker-compose -up`
+
 # Environment
 
 The following environment variables can / msut be specified
