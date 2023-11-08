@@ -1,5 +1,6 @@
 import consts from './consts.ts';
 import { runOrderCheck } from './service/orderCheck.service.ts';
+import { setIntervalFromFullHour } from './util/interval.util.ts';
 import './util/logger.util.ts';
 import logger, { logWelcomeMessage } from './util/logger.util.ts';
 
@@ -12,5 +13,5 @@ async function intervalFn() {
         logger.error('❌ Error while running order check!', e);
     }
 }
-setInterval(intervalFn, consts.CHECK_INTERVAL);
+setIntervalFromFullHour(intervalFn, consts.CHECK_INTERVAL);
 intervalFn();
