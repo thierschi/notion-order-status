@@ -22,6 +22,8 @@ export async function runOrderCheck() {
     for (const db of databases) {
         await runCheckForDatabase(db);
     }
+
+    logger.info('<<< Finished check');
 }
 
 async function runCheckForDatabase(db: Database) {
@@ -90,5 +92,5 @@ async function runCheckForDatabase(db: Database) {
         page.saveChanges();
     }
 
-    logger.info(`<<< ✅ Checked ${pages.length} pages without errors.`);
+    logger.info(`✅ Checked ${pages.length} pages without errors.`);
 }
