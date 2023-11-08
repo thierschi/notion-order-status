@@ -5,10 +5,12 @@ import logger, { logWelcomeMessage } from './util/logger.util.ts';
 
 logWelcomeMessage();
 
-setInterval(async () => {
+async function intervalFn() {
     try {
         await runOrderCheck();
     } catch (e) {
         logger.error('❌ Error while running order check!', e);
     }
-}, consts.CHECK_INTERVAL);
+}
+setInterval(intervalFn, consts.CHECK_INTERVAL);
+intervalFn();

@@ -74,7 +74,7 @@ class Page {
             );
         }
 
-        return prop.rich_text[0].plain_text;
+        return prop.rich_text[0]?.plain_text ?? '';
     }
     public set positions(s: string) {
         if (s !== this.positions) this.hadSignificantChange = true;
@@ -99,7 +99,7 @@ class Page {
             );
         }
 
-        return prop.rich_text[0].plain_text;
+        return prop.rich_text[0]?.plain_text ?? '';
     }
     public set statusInfo(s: string) {
         if (s !== this.statusInfo) this.hadSignificantChange = true;
@@ -197,7 +197,8 @@ class Page {
             );
         }
 
-        switch (prop.multi_select[0].name) {
+        // TODO fix
+        switch (prop.multi_select[0]?.name ?? '') {
             case 'Ready':
                 return 'DELIVERED';
             case 'Shipped':
