@@ -81,4 +81,4 @@ That's it. All status properties will be (re-)created by the integration when th
    - Contributions are welcome! Feel free to submit bug reports, feature requests, or even pull requests to enhance the functionality of the integration.
 
 ## License
-   - This project is licensed under the [[MIT License](https://github.com/thierschi/notion-order-status/blob/c783cd905b735fd219d8693adac9a464f0dd7195/LICENSE).
+   - This project is licensed under the [MIT License](https://github.com/thierschi/notion-order-status/blob/c783cd905b735fd219d8693adac9a464f0dd7195/LICENSE).
