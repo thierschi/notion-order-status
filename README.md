@@ -24,7 +24,7 @@ This integration is a handy tool designed to streamline the tracking process for
    - Users can effortlessly monitor the progress of their film development or photo orders without manually checking the DM Fotoparadies website.
    - Notion serves as a centralized hub for order details, making it easy to access and manage information.
 
-## Deployement1
+## Deployement
 
 ### Prerequisites
 There are two ways of deploying this integration. You can either run it directly with **deno** or you can deploy it on docker. I will explain the docker method here.
@@ -67,6 +67,8 @@ Now that you have the integration up and running you need to create a database f
 - The database must contain the following two properties:
   - A number property for the store number. This property must be marked with `[nost-store-id]`*.
   - A number property for the order number. This property must be marked with `[nost-order-id]`*.
+ 
+**To add this integration to a page** click on the three dots `...` in top right hand corner of your page. Under `Connections` hover over `+ Add Connections` and select your internal integration that you created earlier.
  
 That's it. All status properties will be (re-)created by the integration when they're not present or in a wrong format. Feel free to rename these properties to whatever you want, just remember to leave the database marker in the name.
 
