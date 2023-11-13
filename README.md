@@ -5,7 +5,7 @@
 
 # dm Order Status to Notion Sync
 
-> ⚠️ DISCLAMER: This project is an independent effort and is not affiliated with [dm](dm.de) or [dm Fotoparadies](fotoparadies.de). The integration is developed by me for personal use and is shared with the community for convenience. Any trademarks, logos, or brand names mentioned are the property of their respective owners. The project creators disclaim any association with or endorsement by dm or dm Fotoparadies.
+> ⚠️ DISCLAMER: This project is an independent effort and is not affiliated with [dm](https://dm.de) or [dm Fotoparadies](https://fotoparadies.de). The integration is developed by me for personal use and is shared with the community for convenience. Any trademarks, logos, or brand names mentioned are the property of their respective owners. The project creators disclaim any association with or endorsement by dm or dm Fotoparadies.
 > Use this integration at your own discretion, and be aware that it is not officially supported or endorsed. For any inquiries or concerns related to dm Fotoparadies' services, please refer to their official channels.
 
 ## Overview
