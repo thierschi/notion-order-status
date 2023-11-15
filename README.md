@@ -67,6 +67,7 @@ Now that you have the integration up and running you need to create a database f
 - The database must contain the following two properties:
   - A number property for the store number. This property must be marked with `[nost-store-id]`*.
   - A number property for the order number. This property must be marked with `[nost-order-id]`*.
+  - A 'Created By' property. This property must be marked with `[nost-created-by]`*.
  
 **To add this integration to a page** click on the three dots `...` in top right hand corner of your page. Under `Connections` hover over `+ Add Connections` and select your internal integration that you created earlier.
  
