@@ -72,7 +72,7 @@ Now that you have the integration up and running you need to create a database f
  
 That's it. All status properties will be (re-)created by the integration when they're not present or in a wrong format. Feel free to rename these properties to whatever you want, just remember to leave the database marker in the name.
 
-> * In case you have set the `DATABASE_MARKER` environment variable, replace `nost` with your own marker name.
+> \* In case you have set the `DATABASE_MARKER` environment variable, replace `nost` with your own marker name.
   
 ## Screenshots
 <img width="1123" alt="image" src="https://github.com/thierschi/notion-order-status/assets/53370847/ca343596-cff5-4b16-9bee-179d196227a5">
