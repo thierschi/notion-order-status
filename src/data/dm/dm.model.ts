@@ -18,7 +18,7 @@ export const orderStatusValidator = z.object({
     currency: z.string().nullable(),
     language: z.string(),
     customerNo: z.string(),
-    shopNo: z.string(),
+    shopNo: z.string().nullable(),
     orderNo: z.string(),
     orderDate: z.string().nullable(),
     deliveryType: z.number(),

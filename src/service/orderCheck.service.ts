@@ -42,12 +42,6 @@ async function runCheckForDatabase(db: Database) {
         const storeId = page.storeId;
         const orderId = page.orderId;
 
-        if (storeId === null) {
-            page.info = 'Missing Store ID.';
-            page.setError();
-            page.saveChanges();
-            continue;
-        }
         if (orderId === null) {
             page.info = 'Missing Order ID.';
             page.setError();
